@@ -1,0 +1,7 @@
+[user]
+	name = wheelsandmetal
+	email = jakob@schmutz.co.uk
+[core]
+	editor = vim
+[credential]
+	helper = osxkeychain
