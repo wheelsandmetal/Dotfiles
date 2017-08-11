@@ -1,7 +1,8 @@
 " vim:fdm=marker
-" test
 
-" Vundle Setting {{{
+" vim-plug Setting {{{
+" github.com/junegunn/vim-plug
+" To install use :PluginInstall
 
 set nocompatible
 filetype off
