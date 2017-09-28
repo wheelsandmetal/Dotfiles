@@ -1,0 +1,11 @@
+set realname = 'Jakob Schmutz'
+set from = 'jakob@schmutz.co.uk'
+set imap_user = 'jakob@schmutz.co.uk'
+source "gpg -d ~/.mutt/password.gpg |"
+
+
+# Remote Gmail Folders
+set folder = 'imaps://imap.gmail.com:993'
+set spoolfile = '+INBOX'
+set postponed = '+[Google Mail]/Drafts'
+
