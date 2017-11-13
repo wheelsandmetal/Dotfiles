@@ -129,8 +129,8 @@ let mapleader = " "
 nnoremap <leader>v :tabnew $MYVIMRC<cr>
 
 " Quick quit command
-noremap <Leader>e :q<CR>  " Quit current window
-noremap <Leader>E :qa!<CR>   " Quit all windows
+noremap <Leader>q :q<CR>  " Quit current window
+noremap <Leader>Q :qa!<CR>   " Quit all windows
 
 " Quick save command
 noremap <leader>w :w<cr>
