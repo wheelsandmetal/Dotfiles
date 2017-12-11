@@ -1,8 +1,4 @@
-GREEN="\[$(tput setaf 2)\]"
-RESET="\[$(tput sgr0)\]"
-export PS1="${GREEN}\A \h \w $ ${RESET}"
-bind "TAB:menu-complete"
-bind "set show-all-if-ambiguous on"
+export PS1="[\A \[\e[35m\e[1m\u@\h\] \[\e[0m\]\W]\$ "
 source ~/.aliases
 set bell-style visible
 export CLASSPATH=.:/Users/Jakob/
